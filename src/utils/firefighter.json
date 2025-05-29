@@ -1,0 +1,69 @@
+{
+    "data": {
+        "search": [
+            {
+                "familyStylesByLicense": {
+                    "free": [
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        }
+                    ],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "fire-extinguisher",
+                "unicode": "f134"
+            },
+            {
+                "familyStylesByLicense": {
+                    "free": [],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "starship-freighter",
+                "unicode": "e03a"
+            }
+        ]
+    }
+}

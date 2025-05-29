@@ -1,0 +1,277 @@
+{
+    "data": {
+        "search": [
+            {
+                "familyStylesByLicense": {
+                    "free": [],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "book-section",
+                "unicode": "e0c1"
+            },
+            {
+                "familyStylesByLicense": {
+                    "free": [],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "sprinkler",
+                "unicode": "e035"
+            },
+            {
+                "familyStylesByLicense": {
+                    "free": [
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        }
+                    ],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "section",
+                "unicode": "e447"
+            },
+            {
+                "familyStylesByLicense": {
+                    "free": [
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        }
+                    ],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "gavel",
+                "unicode": "f0e3"
+            },
+            {
+                "familyStylesByLicense": {
+                    "free": [],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "badge-sheriff",
+                "unicode": "f8a2"
+            },
+            {
+                "familyStylesByLicense": {
+                    "free": [],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "user-police-tie",
+                "unicode": "e334"
+            },
+            {
+                "familyStylesByLicense": {
+                    "free": [],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "user-police",
+                "unicode": "e333"
+            },
+            {
+                "familyStylesByLicense": {
+                    "free": [],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "claw-marks",
+                "unicode": "f6c2"
+            },
+            {
+                "familyStylesByLicense": {
+                    "free": [],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "paw-claws",
+                "unicode": "f702"
+            }
+        ]
+    }
+}

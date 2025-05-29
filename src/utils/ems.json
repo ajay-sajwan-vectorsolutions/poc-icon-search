@@ -1,0 +1,412 @@
+{
+    "data": {
+        "search": [
+            {
+                "familyStylesByLicense": {
+                    "free": [],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "light-emergency",
+                "unicode": "e41f"
+            },
+            {
+                "familyStylesByLicense": {
+                    "free": [],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "light-emergency-on",
+                "unicode": "e420"
+            },
+            {
+                "familyStylesByLicense": {
+                    "free": [],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "sprinkler-ceiling",
+                "unicode": "e44c"
+            },
+            {
+                "familyStylesByLicense": {
+                    "free": [],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "panel-ews",
+                "unicode": "e42e"
+            },
+            {
+                "familyStylesByLicense": {
+                    "free": [
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        }
+                    ],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "kit-medical",
+                "unicode": "f479"
+            },
+            {
+                "familyStylesByLicense": {
+                    "free": [],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "hospitals",
+                "unicode": "f80e"
+            },
+            {
+                "familyStylesByLicense": {
+                    "free": [],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "circle-quarters",
+                "unicode": "e3f8"
+            },
+            {
+                "familyStylesByLicense": {
+                    "free": [
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        }
+                    ],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "square-h",
+                "unicode": "f0fd"
+            },
+            {
+                "familyStylesByLicense": {
+                    "free": [],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "panel-fire",
+                "unicode": "e42f"
+            },
+            {
+                "familyStylesByLicense": {
+                    "free": [],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "stretcher",
+                "unicode": "f825"
+            },
+            {
+                "familyStylesByLicense": {
+                    "free": [
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        }
+                    ],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "truck-medical",
+                "unicode": "f0f9"
+            },
+            {
+                "familyStylesByLicense": {
+                    "free": [
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        }
+                    ],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "hospital",
+                "unicode": "f0f8"
+            },
+            {
+                "familyStylesByLicense": {
+                    "free": [
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        }
+                    ],
+                    "pro": [
+                        {
+                            "family": "classic",
+                            "style": "light"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "regular"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "solid"
+                        },
+                        {
+                            "family": "classic",
+                            "style": "thin"
+                        },
+                        {
+                            "family": "duotone",
+                            "style": "solid"
+                        }
+                    ]
+                },
+                "id": "circle-h",
+                "unicode": "f47e"
+            }
+        ]
+    }
+}
