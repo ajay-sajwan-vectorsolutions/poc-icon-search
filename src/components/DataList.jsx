@@ -118,8 +118,6 @@ const DataList = () => {
           display: "flex",
           justifyContent: "space-between",
           width: "90%",
-          fontFamily: "Arial, sans-serif",
-          alignItems: "end"
         }}
       >
         <div>
@@ -172,40 +170,87 @@ const DataList = () => {
         {data.map((item, index) => (
           <div key={index} className="icons">
             {/* Render FREE styles */}
-            {item.familyStylesByLicense?.free?.map((style, i) => (
-              <div key={`free-${index}-${i}`} className="iconHolder">
-                <i
-                  onClick={() => {
-                    setSelectedIcon({
-                      type: "Free",
-                      family: style.family,
-                      style: style.style,
-                      id: `fa-${style.style} fa-${item.id}  `,
-                      color: "#000",
-                    });
-                  }}
-                  className={`fa-${style.style} fa-${item.id} icon-class`}                  
-                ></i>
-              </div>
-            ))}
+            <div className="icon-list">
+              {item.familyStylesByLicense?.free?.map((style, i) => (
+                <div
+                  key={`free-${index}-${i}`}
+                  className={`iconHolder  `}
+                  //   ${
+                  //   selectedIcon.id.trim() ===
+                  //     `fa-${style.style} fa-${item.id}` &&
+                  //   selectedIcon.family === style.family
+                  //     ? "selected-icon"
+                  //     : ""
+                  // }
+                >
+                  <i
+                    onClick={() => {
+                      setSelectedIcon({
+                        type: "Free",
+                        family: style.family,
+                        style: style.style,
+                        id: `fa-${style.style} fa-${item.id}  `,
+                        color: "#000",
+                      });
+                    }}
+                    className={`fa-${style.style} fa-${item.id} icon-class`}
+                    style={{ fontSize: "35px", margin: "4px" }}
+                  ></i>
+                  <span
+                    style={{
+                      fontSize: "12px",
+                      fontWeight: "500",
+                      color: "#616365",
+                    }}
+                  >
+                    {item.id}
 
+                    <br></br>
+                    {selectedIcon.id}
+                  </span>
+                </div>
+              ))}
+            </div>
             {/* Render PRO styles */}
-            {item.familyStylesByLicense?.pro?.map((style, i) => (
-              <div key={`pro-${index}-${i}`} className="iconHolder">
-                <i
-                  onClick={() => {
-                    setSelectedIcon({
-                      type: "Pro",
-                      family: style.family,
-                      style: style.style,
-                      id: `fa-${style.style} fa-${item.id}  `,
-                      color: "#000",
-                    });
-                  }}
-                  className={`fa-${style.style} fa-${item.id} icon-class`}                  
-                ></i>
-              </div>
-            ))}
+            <div className="icon-list">
+              {item.familyStylesByLicense?.pro?.map((style, i) => (
+                <div
+                  key={`pro-${index}-${i}`}
+                  className={`iconHolder `}
+                  // ${
+                  // selectedIcon.id.trim() ===
+                  //   `fa-${style.style} fa-${item.id}` &&
+                  // selectedIcon.family === style.family
+                  //   ? "selected-icon"
+                  //   : ""
+                  // }
+                  //
+                >
+                  <i
+                    onClick={() => {
+                      setSelectedIcon({
+                        type: "Pro",
+                        family: style.family,
+                        style: style.style,
+                        id: `fa-${style.style} fa-${item.id}  `,
+                        color: "#000",
+                      });
+                    }}
+                    className={`fa-${style.style} fa-${item.id} icon-class`}
+                    style={{ fontSize: "35px", margin: "4px" }}
+                  ></i>{" "}
+                  <span
+                    style={{
+                      fontSize: "12px",
+                      fontWeight: "500",
+                      color: "#616365",
+                    }}
+                  >
+                    {item.id}
+                  </span>
+                </div>
+              ))}
+            </div>
           </div>
         ))}
       </div>
@@ -215,21 +260,34 @@ const DataList = () => {
           flexDirection: "column",
           alignItems: " flex-start",
           width: "90%",
-          textAlign: "left",
-          fontFamily: "Arial, sans-serif",
-          fontSize: "16px",
-          marginTop: "20px"
         }}
       >
         {selectedIcon.family && (
           <>
-            <div>              
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                width: "90%",
+                textAlign: "left",
+                fontFamily: " Arial, sans-serif",
+                fontSize: "16px",
+                marginTop: "20px",
+              }}
+            >
               <span className="pro-font">
                 {selectedIcon.type} {selectedIcon.family}-{selectedIcon.style}{" "}
                 <br></br> {selectedIcon.id}
               </span>
             </div>
-            <div style={{ display: "flex", alignItems: "center", borderRadius: "8px" }} >
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                borderRadius: "8px",
+              }}
+            >
               <i
                 className={`fa-${selectedIcon?.style} fa-${selectedIcon.id} icon-preview`}
                 style={{
@@ -242,19 +300,37 @@ const DataList = () => {
               ></i>
               <div style={{ display: "inline-grid", marginLeft: "20px" }}>
                 <div style={{ display: "flex", alignItems: "center" }}>
-                <input
-                  type="color"
-                  id="head"
-                  name="head"
-                  value="#000000"
-                  onChange={(e) =>
-                    setSelectedIcon({ ...selectedIcon, color: e.target.value })
-                  }
-                  style={{ width: "26px" }}
-                />
-                <label for="head" style={{width:"auto", marginLeft:"5px"}}>Select Icon  color</label>
+                  <input
+                    type="color"
+                    id="head"
+                    name="head"
+                    value="#000000"
+                    onChange={(e) =>
+                      setSelectedIcon({
+                        ...selectedIcon,
+                        color: e.target.value,
+                      })
+                    }
+                    style={{ width: "26px" }}
+                  />
+                  <label
+                    for="head"
+                    style={{
+                      width: "auto",
+                      marginLeft: "5px",
+                      fontSize: "18px",
+                    }}
+                  >
+                    Select Icon color
+                  </label>
                 </div>
-                <button style={{margin:"20px 0 0 0", width:"50%"}} onClick={() => saveHandler()} className="search-button">Save</button>
+                <button
+                  style={{ margin: "20px 0 0 0", width: "50%" }}
+                  onClick={() => saveHandler()}
+                  className="search-button"
+                >
+                  Save
+                </button>
               </div>
             </div>
           </>

@@ -3,7 +3,17 @@ import DataList from "./components/DataList";
 
 function App() {
   return (
-    <div style={{ fontSize: "24px", fontFamily: "Open Sans", color: "#333333", fontWeight: 600, margin: "20px", textAlign: "center"}}>
+    <div
+      style={{
+        fontSize: "24px",
+        fontFamily: "Open Sans",
+        color: "#333333",
+        fontWeight: 600,
+        margin: "20px",
+        textAlign: "center",
+        fontFamily: "system-ui",
+      }}
+    >
       Icon Search
       <DataList />
     </div>
